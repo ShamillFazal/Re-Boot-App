@@ -19,24 +19,24 @@ function NavBar() {
 
             <div id="navbarBasicExample" className="navbar-menu">
                 <div className="navbar-start">
-                    <Link to="/" className="navbar-item">
+                    <Link to="/" className="navbar-item has-text-light">
                         Home
                     </Link>
 
-                    <Link to="/arrays" className="navbar-item">
+                    <Link to="/arrays" className="navbar-item has-text-light">
                         Arrays
                     </Link>
 
-                    <Link to="/functions" className="navbar-item">
+                    <Link to="/functions" className="navbar-item has-text-light">
                         Functions
                     </Link>
 
-                    <Link to="/variables" className="navbar-item">
+                    <Link to="/variables" className="navbar-item has-text-light">
                         Variables
                     </Link>
 
                     <div className="navbar-item has-dropdown is-hoverable">
-                        <a className="navbar-link">
+                        <a className="navbar-link has-text-light">
                             Quizzes
                         </a>
 
