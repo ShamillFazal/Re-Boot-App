@@ -3,13 +3,14 @@ import NavBar from "../NavBar/navBar";
 import LogoR from "../../images/V3_Logo.png";
 import Typewriter from "typewriter-effect";
 import "./homePage.css";
+import Footer from "../Footer/footer";
 
 function HomePage() {
   return (
     <>
       <NavBar />
       <section className="section is-medium">
-        <div className="container">
+        <div className="container has-text-centered	">
           <img src={LogoR} alt="V3 Logo" className="logo" />
           <div>
             <h1 className="is-size-2" id="main-page-heading">
@@ -43,14 +44,7 @@ function HomePage() {
           </div>
         </div>
       </section>
-      <footer className="footer">
-        <div className="content has-text-centered">
-          <p>
-            <strong>Re-Boot</strong> by{" "}
-            <a href="https://www.linkedin.com/in/shamill-fazal/">Shamill Fazal</a>.
-          </p>
-        </div>
-      </footer>
+        <Footer />
     </>
   );
 }

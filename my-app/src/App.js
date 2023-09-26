@@ -1,11 +1,14 @@
-import HomePage from './Components/HomePage/homePage';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
+import HomePage from "./Components/HomePage/homePage";
+import ArraysPage from "./Components/ResourcePages/arraysPage";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <HomePage />
-    </div>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/arrays" element={<ArraysPage />} />
+    </Routes>
   );
 }
 
