@@ -23,10 +23,13 @@ export default function Quiz({ quizName }) {
     <div>
       <div className="quiz">
         {showScore ? (
-          <div className="score-section">
+          <div className="score-section is-size-4 has-text-centered">
+          <p className="mb-4">
             {" "}
             You Scored {score} out of {variablesQuizData.length}
+            </p>
             <button
+            className="button is-medium is-rounded is-link is-hovered is-fullwidth"
               onClick={() => {
                 setShowScore(false);
                 setScore(0);
@@ -38,35 +41,41 @@ export default function Quiz({ quizName }) {
           </div>
         ) : (
           <>
-            <div className="question-section">
-              <div className="question-count">
-                <span>Question {currentQuestion + 1}</span>/
-                {variablesQuizData.length}
-              </div>
-              <h2> {quizName}</h2>
-              <div className="question-text">
-                {" "}
-                {variablesQuizData[currentQuestion].questionText}
+            <div className="columns">
+              <div className="column is-half">
+                <h2 className="is-size-3">{quizName}</h2>
+                <div className="question-count is-size-4 mb-4">
+                  <span>Question {currentQuestion + 1}</span>/
+                  {variablesQuizData.length}
+                </div>
+                <div className="question-text is-size-5">
+                  {" "}
+                  {variablesQuizData[currentQuestion].questionText}
+                </div>
+
+                {variablesQuizData[currentQuestion].codeSnippet && (
+                  <div>{variablesQuizData[currentQuestion].codeSnippet}</div>
+                )}
               </div>
 
-              {variablesQuizData[currentQuestion].codeSnippet && (
-                <div>{variablesQuizData[currentQuestion].codeSnippet}</div>
-              )}
-            </div>
-
-            <div className="answer-section">
-              {variablesQuizData[currentQuestion].optionText.map(
-                (answerOption) => (
-                  <button
-                    className="answer-button"
-                    onClick={() =>
-                      handleAnswerButtonClick(answerOption.isCorrect)
-                    }
-                  >
-                    {answerOption.answerText}
-                  </button>
-                )
-              )}
+              <div className="column">
+                <div className="answer-options">
+                  {variablesQuizData[currentQuestion].optionText.map(
+                    (answerOption, index) => (
+                      <div key={index} className="answer-option">
+                        <button
+                          className="button is-medium is-rounded is-link is-hovered is-fullwidth"
+                          onClick={() =>
+                            handleAnswerButtonClick(answerOption.isCorrect)
+                          }
+                        >
+                          {answerOption.answerText}
+                        </button>
+                      </div>
+                    )
+                  )}
+                </div>
+              </div>
             </div>
           </>
         )}

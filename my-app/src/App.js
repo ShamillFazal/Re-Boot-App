@@ -4,6 +4,8 @@ import ArraysPage from "./Components/ResourcePages/arraysPage";
 import FunctionsPage from "./Components/ResourcePages/functionsPage";
 import VariablesPage from "./Components/ResourcePages/variablesPage";
 import ArraysQuizPage from "./Components/QuizPages/arraysQuizPage";
+import FunctionsQuizPage from "./Components/QuizPages/functionsQuizPage";
+import VariablesQuizPage from "./Components/QuizPages/variablesQuizPage";
 import "./App.css";
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
       <Route path="/functions" element={<FunctionsPage />} />
       <Route path="/variables" element={<VariablesPage />} />
       <Route path="/quiz-arrays" element={<ArraysQuizPage />} />
+      <Route path="/quiz-functions" element={<FunctionsQuizPage />} />
+      <Route path="/quiz-variables" element={<VariablesQuizPage />} />
     </Routes>
   );
 }
