@@ -73,7 +73,7 @@ function ArraysPage() {
               </figure>
               <div className="card-content">
                 <p className="subtitle is-6">MDN WEB DOCS</p>
-                <p className="title is-4">JS documentation on arrays</p>
+                <p className="title is-4">JS Arrays Documentation</p>
               </div>
             </div>
           </div>
@@ -92,7 +92,7 @@ function ArraysPage() {
               </figure>
               <div className="card-content">
                 <p className="subtitle is-6">W3 SCHOOLS DOCS</p>
-                <p className="title is-4">JS documentation on arrays</p>
+                <p className="title is-4">JS Arrays Documentation</p>
               </div>
             </div>
           </div>

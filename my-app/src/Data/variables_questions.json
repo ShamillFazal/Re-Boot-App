@@ -1,0 +1,49 @@
+[
+    {
+      "questionText": "In JavaScript, which keyword is used to declare a variable that cannot be reassigned?",
+      "optionText": [
+        { "answerText": "let", "isCorrect": false },
+        { "answerText": "const", "isCorrect": true },
+        { "answerText": "var", "isCorrect": false },
+        { "answerText": "assign", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "What is the scope of a variable declared using the 'var' keyword?",
+      "optionText": [
+        { "answerText": "Block scope", "isCorrect": false },
+        { "answerText": "Function scope", "isCorrect": true },
+        { "answerText": "Global scope", "isCorrect": false },
+        { "answerText": "Module scope", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Which variable declaration is hoisted to the top of its containing function or global scope?",
+      "optionText": [
+        { "answerText": "let", "isCorrect": false },
+        { "answerText": "const", "isCorrect": false },
+        { "answerText": "var", "isCorrect": true },
+        { "answerText": "both let and const", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "What will be the value of 'result' after executing the following code?",
+      "codeSnippet": "var x = 5; function foo() { var x = 10; return x; } var result = foo();",
+      "optionText": [
+        { "answerText": "5", "isCorrect": false },
+        { "answerText": "10", "isCorrect": true },
+        { "answerText": "undefined", "isCorrect": false },
+        { "answerText": "15", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "What is the purpose of the 'typeof' operator in JavaScript?",
+      "optionText": [
+        { "answerText": "To check if a variable is defined", "isCorrect": false },
+        { "answerText": "To determine the data type of a value", "isCorrect": true },
+        { "answerText": "To create a new variable", "isCorrect": false },
+        { "answerText": "To concatenate strings", "isCorrect": false }
+      ]
+    }
+  ]
+  

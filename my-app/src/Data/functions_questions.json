@@ -1,0 +1,49 @@
+[
+    {
+      "questionText": "How do you declare a function in JavaScript?",
+      "optionText": [
+        { "answerText": "function myFunction() {}" },
+        { "answerText": "myFunction() -> {}" },
+        { "answerText": "let myFunction = function;" },
+        { "answerText": "let myFunction = {};" }
+      ]
+    },
+    {
+      "questionText": "How do you declare an arrow function in JavaScript?",
+      "optionText": [
+        { "answerText": "let myFunction = () => {};" },
+        { "answerText": "let myFunction = function() {};" },
+        { "answerText": "let myFunction => {};" },
+        { "answerText": "let myFunction = {};" }
+      ]
+    },
+    {
+      "questionText": "What is the keyword used to return a value from a function?",
+      "optionText": [
+        { "answerText": "result" },
+        { "answerText": "yield" },
+        { "answerText": "output" },
+        { "answerText": "return" }
+      ]
+    },
+    {
+      "questionText": "What is a function that can be assigned to a variable called?",
+      "optionText": [
+        { "answerText": "Anonymous function" },
+        { "answerText": "Arrow function" },
+        { "answerText": "First-class function" },
+        { "answerText": "Inner function" }
+      ]
+    },
+    {
+      "questionText": "What is the output of the following code?",
+      "codeSnippet": "function outer() { let x = 10; function inner() { console.log(x); } return inner; } const myInner = outer(); myInner();",
+      "optionText": [
+        { "answerText": "undefined" },
+        { "answerText": "null" },
+        { "answerText": "10" },
+        { "answerText": "Error" }
+      ]
+    }
+  ]
+  

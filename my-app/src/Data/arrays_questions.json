@@ -1,0 +1,49 @@
+[
+    {
+      "questionText": "How do you declare an empty array in JavaScript?",
+      "optionText": [
+        { "answerText": "let myArray = [];", "isCorrect": false },
+        { "answerText": "const myArray = {};", "isCorrect": false },
+        { "answerText": "var myArray = [];", "isCorrect": true },
+        { "answerText": "myArray = [];", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "What is the index of the first element in an array in JavaScript?",
+      "optionText": [
+        { "answerText": "0", "isCorrect": true },
+        { "answerText": "1", "isCorrect": false },
+        { "answerText": "-1", "isCorrect": false },
+        { "answerText": "undefined", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Which method is used to add an element to the end of an array in JavaScript?",
+      "optionText": [
+        { "answerText": "push()", "isCorrect": true },
+        { "answerText": "add()", "isCorrect": false },
+        { "answerText": "append()", "isCorrect": false },
+        { "answerText": "insert()", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "How do you access the length of an array in JavaScript?",
+      "optionText": [
+        { "answerText": "array.length()", "isCorrect": false },
+        { "answerText": "length(array)", "isCorrect": false },
+        { "answerText": "array.length", "isCorrect": true },
+        { "answerText": "lengthOfArray(array)", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "What will be the output of the following code?",
+      "codeSnippet": "const fruits = ['apple', 'banana', 'cherry']; console.log(fruits[1]);",
+      "optionText": [
+        { "answerText": "apple", "isCorrect": false },
+        { "answerText": "banana", "isCorrect": true },
+        { "answerText": "cherry", "isCorrect": false },
+        { "answerText": "undefined", "isCorrect": false }
+      ]
+    }
+  ]
+  

@@ -41,15 +41,15 @@ function NavBar() {
                         </a>
 
                         <div className="navbar-dropdown">
-                            <a className="navbar-item">
+                            <Link to="/quiz-arrays" className="navbar-item">
                                 Arrays Quiz
-                            </a>
-                            <a className="navbar-item">
+                            </Link>
+                            <Link to="/quiz-functions" className="navbar-item">
                                 Functions Quiz
-                            </a>
-                            <a className="navbar-item">
+                            </Link>
+                            <Link to="/quiz-variables" className="navbar-item">
                                 Variables Quiz
-                            </a>
+                            </Link>
                             <hr className="navbar-divider" />
                             <a className="navbar-item">
                                 Report an issue
