@@ -1,6 +1,8 @@
 import React from "react";
 import NavBar from "../NavBar/navBar";
 import Footer from "../Footer/footer";
+import MDN from "../../images/MDN_Web_Docs_logo.svg.png";
+import W3 from "../../images/W3Schools_logo.png";
 
 function ArraysPage() {
   return (
@@ -47,53 +49,106 @@ function ArraysPage() {
           </div>
         </div>
       </section>
-      <section className="section is-medium">
-        <div className="columns">
-          <div className="column"></div>
 
-          <div className="container">
-            <div className="card">
-              <div className="card-image">
-                <figure className="image">
-                  <a
-                    href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/MDN_Web_Docs_logo.svg/512px-MDN_Web_Docs_logo.svg.png"
-                      alt=""
-                    />
-                  </a>
-                </figure>
-                <div className="card-content">
-                  <p className="subtitle is-6">MDN WEB DOCS</p>
-                  <p className="title is-4">JS documentation on arrays</p>
-                </div>
+      <div className="container">
+        <div className="content has-text-centered">
+          <h1 className="is-size-2" id="main-page-heading">
+            Documentation
+          </h1>
+        </div>
+      </div>
+
+      <div className="columns is-centered">
+        <div className="column is-one-third">
+          <div className="card h-100">
+            <div className="card-image">
+              <figure className="image">
+                <a
+                  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={MDN} alt="" />
+                </a>
+              </figure>
+              <div className="card-content">
+                <p className="subtitle is-6">MDN WEB DOCS</p>
+                <p className="title is-4">JS documentation on arrays</p>
               </div>
             </div>
           </div>
-          <div className="column">
-            <div className="card">
-              <div className="card-image">
-                <figure className="image">
-                  <a
-                    href="https://www.w3schools.com/js/js_arrays.asp"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      id="w3schools"
-                      src="https://upload.wikimedia.org/wikipedia/commons/3/3e/W3Schools_logo.png"
-                      alt=""
-                    />
-                  </a>
-                </figure>
-                <div className="card-content">
-                  <p className="subtitle is-6">W3 SCHOOLS DOCS</p>
-                  <p className="title is-4">JS documentation on arrays</p>
-                </div>
+        </div>
+        <div className="column is-one-third">
+          <div className="card h-100">
+            <div className="card-image">
+              <figure className="image">
+                <a
+                  href="https://www.w3schools.com/js/js_arrays.asp"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img id="w3schools" src={W3} alt="" />
+                </a>
+              </figure>
+              <div className="card-content">
+                <p className="subtitle is-6">W3 SCHOOLS DOCS</p>
+                <p className="title is-4">JS documentation on arrays</p>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section className="section is-medium">
+        <div className="container">
+          <div className="content has-text-centered">
+            <h1 className="is-size-2" id="main-page-heading">
+              Video Tutorials
+            </h1>
+          </div>
+        </div>
+        <div className="container">
+          <div className="columns is-centered">
+            <div class="column is-one-third">
+              <figure className="image is-16by9">
+                <iframe
+                  className="has-ratio"
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/7W4pQQ20nJg?si=Pb6cIShzDG2znt2e"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </figure>
+            </div>
+            <div class="column">
+              <figure className="image is-16by9">
+                <iframe
+                className="has-ratio"
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/R8rmfD9Y5-c?si=6gZj-cucKVNPVrG4"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </figure>
+            </div>
+            <div class="column">
+              <figure className="image is-16by9">
+                <iframe
+                className="has-ratio"
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/oigfaZ5ApsM?si=z2kY3YfCZAUMNmjt"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </figure>
             </div>
           </div>
         </div>
