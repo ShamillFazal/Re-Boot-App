@@ -6,8 +6,8 @@ import NavBar from "../NavBar/navBar";
 import Footer from "../Footer/footer";
 
 function ArraysQuizPage() {
-  const [quizData, setQuizData] = useState(arraysQuizData);
-  const [quizName, setQuizName] = useState("Arrays Quiz");
+  const quizData = useState(arraysQuizData);
+  const quizName = useState("Arrays Quiz");
 
   return (
     <>

@@ -9,8 +9,8 @@ import Footer from "../Footer/footer";
 function VariablesQuizPage() {
 
   
-  const [quizData, setQuizData] = useState(variablesQuizData);
-  const [quizName, setQuizName] = useState("Variables Quiz");
+  const quizData = useState(variablesQuizData);
+  const quizName = useState("Variables Quiz");
 
   
 
